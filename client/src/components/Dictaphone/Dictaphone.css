@@ -1,0 +1,61 @@
+/* .form {
+  display: flex;
+  border-top: 2px solid #d3d3d3;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+} */
+
+.VOICEform {
+  display: flex;
+  border-top: 2px solid #d1d1d1;
+}
+
+.Voiceinput {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 70%;
+  font-size: 1.2em;
+}
+
+.startVoice {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background: #f4f800;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+}
+
+.stopVoice {
+  color: rgb(212, 124, 124);
+  text-decoration: none;
+  background: #38381d;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+}
+
+.resetVoice {
+  color: rgb(83, 2, 2);
+  text-decoration: none;
+  background: #b8b846;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+}
