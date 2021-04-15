@@ -25,9 +25,9 @@ select:focus {
 .Voiceinput {
   border: none;
   border-radius: 0;
-  padding: 5%;
-  width: 70%;
-  font-size: 1.2em;
+  padding: 3%;
+  width: 80%;
+  font-size: 1em;
 }
 
 .startVoice {
@@ -37,7 +37,7 @@ select:focus {
   padding: 20px;
   display: inline-block;
   border: none;
-  width: 20%;
+  width: 10%;
 }
 
 .stopVoice {
@@ -47,7 +47,7 @@ select:focus {
   padding: 20px;
   display: inline-block;
   border: none;
-  width: 20%;
+  width: 10%;
 }
 
 .resetVoice {
@@ -57,5 +57,5 @@ select:focus {
   padding: 20px;
   display: inline-block;
   border: none;
-  width: 20%;
+  width: 10%;
 }

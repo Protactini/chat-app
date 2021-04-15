@@ -14,42 +14,49 @@ export const Dictaphone = ({ setMessage }) => {
   //   return null;
   // }
 
+  const resetandstart = function () {
+    resetTranscript();
+    SpeechRecognition.startListening();
+  };
+
   const stoplinss = function () {
     SpeechRecognition.stopListening();
     setMessage(transcript);
   };
 
   return (
-    <div>
-      {/* // <form className="VOICEform"> */}
-      {/* <input
+    <div className="VOICEform">
+      {/* <form className="VOICEform"> */}
+      <input
         className="Voiceinput"
         type="text"
-        placeholder="Type a message..."
+        placeholder="Say something ..."
         value={transcript}
-      /> */}
+      />
 
-      <button className="startVoice" onClick={SpeechRecognition.startListening}>
+      {/* <textarea className="Voiceinput" value={transcript} /> */}
+
+      <button className="startVoice" onClick={resetandstart}>
         <div>
-          <i className="fas fa-microphone" aria-hidden="true" />
+          <i className="fa fa-microphone" aria-hidden="true" />
           &nbsp; Start
         </div>
       </button>
 
       <button className="stopVoice" onClick={stoplinss}>
         <div>
-          <i className="fas fa-microphone-slash" />
-          &nbsp; Stop
+          <i className="fa fa-arrow-up" />
+          &nbsp; Get
         </div>
       </button>
 
-      <button className="resetVoice" onClick={resetTranscript}>
+      {/* <button className="resetVoice" onClick={resetTranscript}>
         <div>
           <i className="fas fa-trash-restore-alt" />
           &nbsp; Reset
         </div>
-      </button>
-      <p>{transcript}</p>
+      </button> */}
+      {/* <p>{transcript}</p> */}
       {/* </form> */}
     </div>
   );
