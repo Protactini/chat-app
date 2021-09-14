@@ -2,4 +2,4 @@
 
 Live site - <https://react-chat-page.netlify.app>
 
-![React Chat Application](./client/image/Capture.png)
+![React Chat Application](./client/image/Capture.PNG)
