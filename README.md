@@ -1,4 +1,4 @@
-# React Chat Application
+# React Chat Application with voice recognation 
 
 Live site - <https://react-chat-page.netlify.app>
 
